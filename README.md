@@ -1,15 +1,13 @@
-sumbbiters id:
-206669970
-322524521
+# Donkey Kong – Console Arcade Engine
+A robust C++ recreation of the classic Donkey Kong arcade game, featuring advanced game logic, ASCII-based graphics, and dynamic gameplay states.
 
-importent notes
-1. We defined the program so that if there is an invalid screen or if the program can't open the screen,
-the program corrects the score as if the screen was valid and continues to the following screens.
+## Key Technical Features
+* **Advanced Enemy AI:** Implemented "Hunting Mode" for ghosts, featuring pathfinding logic to track and follow the player.
+* **Dynamic Rendering Engine:** Supports both classic and color modes, including visual feedback such as blinking effects and custom UI elements (e.g., heart-based health system).
+* **Robust Error Handling:** Integrated a file-validation system that gracefully handles invalid map files, ensuring game continuity by auto-correcting scores and transitioning to the next valid level.
+* **Custom Physics & Traversal:** Designed direction-switching logic for barrel entities based on environment markers (`^`), simulating classic arcade mechanics.
 
-bonus points:
-1. added counting down to back to main menu message and exiting message.
-2. added a nice screen for invalid file with the things that made the file invalid. also added loading next file message.
-3. mario changes to blinking % when with hammer.
-4. barrels changes direction when reaches to ^.
-5. added cute hearts when playing the game with colors.
-6. ghosts hunt mario.
+## Technologies
+* **Language:** C++
+* **Environment:** Windows Console API / Cross-platform C++ logic
+* **Architecture:** Object-Oriented Programming (OOP) with a focus on modular entity management
