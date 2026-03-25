@@ -1,0 +1,5 @@
+file format:
+result = 0: mario lost a life (crush case)
+result = 1: mario won
+result = 2: no result 
+result = 3: shows the final score of the level
